@@ -1,0 +1,4 @@
+Steps to customize Bootstrap using Sass:
+1. Install Bootstrap via npm
+2. Modify _variables.scss (e.g., $primary: #123456;)
+3. Import bootstrap.scss and compile using sass compiler

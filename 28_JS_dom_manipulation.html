@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div id="eventContainer"></div>
+  <script>
+    const events = ["Music", "Art", "Tech"];
+    const container = document.querySelector('#eventContainer');
+    events.forEach(name => {
+      const card = document.createElement('div');
+      card.textContent = name;
+      container.appendChild(card);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: green;
+}
+
+#mainHeader {
+  font-size: 24px;
+}
+
+.eventCard {
+  box-shadow: 0 0 5px #000;
+}
+
+h3, p {
+  margin-bottom: 10px;
+}

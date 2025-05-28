@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <style>
+    form { width: 300px; margin: auto; }
+  </style>
+</head>
+<body>
+  <form onsubmit="output.textContent='Registration submitted!'; return false;">
+    <input type="text" name="name" placeholder="Your name" required autofocus><br>
+    <input type="email" name="email" placeholder="Your email" required><br>
+    <input type="date" name="date" required><br>
+    <select name="eventType" required>
+      <option value="">Select an event</option>
+      <option>Music</option>
+      <option>Workshop</option>
+    </select><br>
+    <textarea name="message" placeholder="Message"></textarea><br>
+    <button type="submit">Register</button>
+    <output name="output"></output>
+  </form>
+</body>
+</html>

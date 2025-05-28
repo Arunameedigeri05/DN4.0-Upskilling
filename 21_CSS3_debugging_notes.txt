@@ -1,0 +1,4 @@
+Use Chrome DevTools:
+- Use Inspect Element to preview live changes.
+- Check Network tab for CSS load errors.
+- Use device toolbar to test responsive layouts.

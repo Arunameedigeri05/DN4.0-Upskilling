@@ -1,0 +1,3 @@
+Use Console tab to log values.
+Check fetch errors under Network.
+Set breakpoints to inspect function steps.

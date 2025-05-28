@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <select id="category">
+    <option value="music">Music</option>
+    <option value="tech">Tech</option>
+  </select>
+  <input type="text" id="search" placeholder="Search...">
+  <button onclick="alert('Registered!')">Register</button>
+  <script>
+    document.getElementById("category").onchange = e => alert("Category: " + e.target.value);
+    document.getElementById("search").onkeydown = e => console.log(e.key);
+  </script>
+</body>
+</html>
